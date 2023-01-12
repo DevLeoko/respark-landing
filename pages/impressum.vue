@@ -31,7 +31,7 @@
     Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend
     entfernen.
 
-    <router-link class="block bg-blue-600 text-white font-bold px-2 py-1 rounded-sm w-max mx-auto mt-7" to="/">
+    <router-link class="block bg-blue-600 text-white font-bold px-2 py-1 rounded-sm w-max mx-auto my-7" to="/">
       Take me back
     </router-link>
   </div>
