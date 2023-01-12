@@ -26,13 +26,33 @@ export default defineComponent({
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700&display=swap');
 
 body {
-  background-image: radial-gradient(at 83% 12%, rgba(0, 133, 173, 0.3) 0%, rgba(255, 255, 255, 0) 90%, rgba(228, 234, 238, 0) 100%);
+  background-image: radial-gradient(at 50% 50%, rgba(89, 152, 219, 0.4) 0%, rgba(255, 255, 255, 0) 70%, rgba(228, 234, 238, 0) 100%);
   background-color: #edf3f5;
   font-family: 'Sofia Sans', sans-serif;
+  background-size: 300% 300%;
+  background-position: 40% 30%;
+  animation: background-sweep 60s ease infinite;
 }
 
-/* body {
-  background-image: radial-gradient(at 95% 2%, rgba(73, 141, 161, 0.3) 0%, rgb(16, 18, 19) 100%);
-  background-color: #101213;
-} */
+@keyframes background-sweep {
+  0% {
+    background-position: 20% 80%;
+  }
+
+  40% {
+    background-position: 80% 90%;
+  }
+
+  60% {
+    background-position: 70% 30%;
+  }
+
+  80% {
+    background-position: 20% 10%;
+  }
+
+  100% {
+    background-position: 20% 80%;
+  }
+}
 </style>
