@@ -23,14 +23,72 @@ export default defineComponent({
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700&display=swap');
+/* sofia-sans-300 - latin */
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+    url('/fonts/sofia-sans-v10-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/sofia-sans-v10-latin-300.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* sofia-sans-regular - latin */
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/sofia-sans-v10-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/sofia-sans-v10-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* sofia-sans-500 - latin */
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('/fonts/sofia-sans-v10-latin-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/sofia-sans-v10-latin-500.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* sofia-sans-600 - latin */
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('/fonts/sofia-sans-v10-latin-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/sofia-sans-v10-latin-600.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* sofia-sans-700 - latin */
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('/fonts/sofia-sans-v10-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/sofia-sans-v10-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 body {
   background-image: radial-gradient(at 50% 50%, rgba(89, 152, 219, 0.4) 0%, rgba(255, 255, 255, 0) 70%, rgba(228, 234, 238, 0) 100%);
   background-color: #edf3f5;
   font-family: 'Sofia Sans', sans-serif;
-  background-size: 300% 300%;
-  background-position: 40% 30%;
+  background-size: 200% 200%;
+  background-position: 20% 80%;
   animation: background-sweep 60s ease infinite;
 }
 
