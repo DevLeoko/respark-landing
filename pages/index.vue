@@ -13,8 +13,8 @@ export default defineComponent({
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold mt-5">Innovative solutions, ignited by Respark</h1>
-  <h2 class="text-xl my-16">
+  <h1 class="text-3xl font-bold mt-5 text-center">Innovative solutions, ignited by Respark</h1>
+  <h2 class="text-xl my-16 text-center">
     The web presence is still under development - check back in later!
   </h2>
   <article class="flex flex-col items-center">
