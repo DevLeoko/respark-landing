@@ -8,7 +8,7 @@
     76133 Karlsruhe<br>
     <br>
     <b>KONTAKT:</b><br>
-    Mail: lets@respark.com<br>
+    Mail: lets@respark.dev<br>
 
     <h2>HAFTUNGSAUSSCHLUSS (DISCLAIMER)</h2>
     <h3>Haftung für Inhalte</h3>
